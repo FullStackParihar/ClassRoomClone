@@ -11,7 +11,7 @@ import { useToggle } from "../Context/ToggleContext";
 const InnerPage = () => {
   const { id } = useParams();
   const [data, setData] = useState(null);
- const { toggle, toggleValue } = useToggle();
+  const { toggle, toggleValue } = useToggle();
   useEffect(() => {
     // Find the matched product
     const matchedProduct = products.find(
@@ -61,8 +61,8 @@ const InnerPage = () => {
 
       {/* Sidebar */}
       <div className={`fixed items-center top-[75px] left-0 h-full z-10 ${toggle ? 'w-20' : 'w-44'} border-r-2 bg-white p-4 duration-300 hidden lg:block`} >
-                <SideBar />
-            </div>
+        <SideBar />
+      </div>
 
       <div className="md:pl-34 p-4">
         {/* Main Image */}
@@ -101,7 +101,7 @@ const InnerPage = () => {
                 </button>
               </div>
               <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">
-                Join
+                <a href="https://meet.google.com/xsw-sgnp-ovz?authuser=0&hs=179">  Join </a>
               </button>
             </div>
             <div className="bg-white border-2 rounded-lg w-52 shadow-md p-4 col-span-1">
