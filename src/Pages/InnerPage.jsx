@@ -28,8 +28,7 @@ const InnerPage = () => {
       </div>
 
       {/* Menu Bar */}
-      <div
-        className={`flex fixed bg-white gap-3 mt-[75px] border-b-2 duration-300 px-10 rounded-md shadow-sm mx-auto hidden sm:flex ${toggle ? 'ml-20' : 'ml-44'}`}>
+      <div className={`flex fixed bg-white gap-3 mt-[75px] border-b-2 duration-300 px-10 rounded-md shadow-sm mx-auto hidden sm:flex ${toggle ? 'ml-20' : 'ml-44'}`}>
 
         <div className="hover:bg-blue-100 w-20 py-3 h-14 ">
           <a
@@ -40,11 +39,11 @@ const InnerPage = () => {
           <div className="w-20 h-[3px] bg-blue-500 relative top-[18px] rounded"></div>
         </div>
         <div className="hover:bg-blue-100 py-3 w-20 h-14">
-          <a
+          <Link to="/assignment"> <a
             href="#"
             className="text-blue-600 hover:no-underline relative left-[8px]">
             Classwork
-          </a>
+          </a></Link>
           <div className="w-20 h-[3px] bg-blue-500 relative top-[18px] rounded"></div>
         </div>
         <div className="hover:bg-blue-100 py-3 w-20 h-14">
