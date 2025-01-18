@@ -33,19 +33,19 @@ const SideBar = () => {
                     </div>
                     <div className=''><FontAwesomeIcon className='h-5 pr-4' icon={faGraduationCap} /><span className=''>Acadmic</span>
                         <ul className='flex flex-col gap-4 mt-3'>
-                            <div className='flex bg-gray-300 rounded-r-2xl p-2'>
+                            <div className='flex bg-gray-200 rounded-r-2xl p-2'>
                                 <h2 className='px-2 bg-black text-white rounded-full'>C</h2>
                                 <li>Cpp Intermidiate</li></div>
-                            <div className='flex  bg-gray-300 rounded-r-2xl p-2'>
+                            <div className='flex  bg-gray-200 rounded-r-2xl p-2'>
                                 <h2 className='px-2 bg-black text-white rounded-full'>C</h2>
                                 <li>Cpp Batch-T</li></div>
-                            <div className='flex  bg-gray-300 rounded-r-2xl p-2'>
+                            <div className='flex  bg-gray-200 rounded-r-2xl p-2'>
                                 <h2 className='px-2 bg-green-700 text-white rounded-full'>R</h2>
                                 <li>React_node_K</li></div>
-                            <div className='flex  bg-gray-300 rounded-r-2xl p-2'>
+                            <div className='flex  bg-gray-200 rounded-r-2xl p-2'>
                                 <h2 className='px-2 bg-blue-800 text-white rounded-full'>F</h2>
                                 <li>Frontend Batch-Z</li></div>
-                            <div className='flex  bg-gray-300 rounded-r-2xl p-2'>
+                            <div className='flex  bg-gray-200 rounded-r-2xl p-2'>
                                 <h2 className='px-2 bg-black text-white rounded-full'>C</h2>
                                 <li>C Logical</li></div>
                         </ul>
