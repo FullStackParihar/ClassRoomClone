@@ -28,8 +28,10 @@ const InnerPage = () => {
       </div>
 
       {/* Menu Bar */}
-      <div className="flex fixed bg-white gap-3 mt-[75px] border-b-2 px-10 rounded-md shadow-sm w-[100%] mx-auto hidden sm:flex ">
-        <div className="hover:bg-blue-100 ml-20 w-20 py-3 h-14 ">
+      <div
+        className={`flex fixed bg-white gap-3 mt-[75px] border-b-2 duration-300 px-10 rounded-md shadow-sm mx-auto hidden sm:flex ${toggle ? 'ml-20' : 'ml-44'}`}>
+
+        <div className="hover:bg-blue-100 w-20 py-3 h-14 ">
           <a
             href="#"
             className="text-blue-600 hover:no-underline relative left-[12px]">
@@ -48,15 +50,12 @@ const InnerPage = () => {
         <div className="hover:bg-blue-100 py-3 w-20 h-14">
           <a
             href="#"
-            className="text-blue-600 hover:no-underline relative left-[12px]"
-          >
+            className="text-blue-600 hover:no-underline relative left-[12px]">
             People
           </a>
           <div className="w-20 h-[3px] bg-blue-500 relative top-[18px] rounded"></div>
         </div>
       </div>
-
-
 
 
       {/* Sidebar */}
@@ -109,8 +108,7 @@ const InnerPage = () => {
               <p className="text-gray-600 mt-2">Woohoo, no work due soon!</p>
               <a
                 href="#"
-                className="text-blue-500 hover:underline mt-4 block text-sm font-semibold"
-              >
+                className="text-blue-500 hover:underline mt-4 block text-sm font-semibold">
                 View all
               </a>
             </div>
