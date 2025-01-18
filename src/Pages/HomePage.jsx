@@ -21,7 +21,7 @@ const HomePage = () => {
                 <SideBar />
             </div>
             {/* cardcomponent */}
-            <div className="flex flex-wrap gap-6 mt-28 ml-24   ">
+            <div className="flex flex-wrap gap-6 mt-28 justify-center ">
                 {products.map((product) => (
                     <Link to={`/innerpage/${product.id}`}> <ProductCard key={product.id} product={product} /></Link>
                 ))}
