@@ -17,7 +17,7 @@ const InnerPage = () => {
     const matchedProduct = products.find(
       (product) => String(product.id) === id
     );
-    setData(matchedProduct || null);
+    setData(matchedProduct || null); 
   }, [id]);
  
   return (
