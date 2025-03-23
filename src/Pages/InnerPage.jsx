@@ -13,7 +13,7 @@ const InnerPage = () => {
   const [data, setData] = useState(null);
   const { toggle, toggleValue } = useToggle();
   useEffect(() => {
-    // Find the matched product
+    // Find the matched product 
     const matchedProduct = products.find(
       (product) => String(product.id) === id
     );
