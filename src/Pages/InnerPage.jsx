@@ -19,7 +19,7 @@ const InnerPage = () => {
     );
     setData(matchedProduct || null);
   }, [id]);
-
+ 
   return (
     <div className="relative">
       {/* Navbar */}
